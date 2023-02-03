@@ -1,0 +1,28 @@
+
+#counter{
+   
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* padding: 20px; */
+    font-size: 130px;
+    text-align: center;
+    width:100%;
+
+}
+#increment, #reset, #decrement{
+    
+    /* background-color: rgba(186, 182, 182, 0.8); */
+    padding: 20px;
+    /*font-size: 30px;
+    text-align: center;
+    width:20%; */
+
+} 
+.container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;  
+}
+.cnt{
+    display:flex;
+    justify-content: center;
+}

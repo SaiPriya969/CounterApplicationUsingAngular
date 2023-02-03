@@ -1,0 +1,10 @@
+<div class="container">
+  <div id="counter">
+    {{count}}
+  </div>
+  <div id="cnt">
+    <app-increment id="increment" [inputToChild1]="count" [labelToChild1]="m1" (output1ToParent)="fun1($event)"></app-increment>
+    <app-reset id="reset" [inputToChild2]="count" [labelToChild2]="m2" (output2ToParent)="fun2($event)"></app-reset>
+    <app-decrement id="decrement" [inputToChild3]="count" [labelToChild3]="m3" (output3ToParent)="fun3($event)"></app-decrement>
+  </div>
+</div>
